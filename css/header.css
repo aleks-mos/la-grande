@@ -1,0 +1,213 @@
+
+.header .bg{
+    /* background-image: url("../img/bg.png"); */
+    background-image: url("https://picua.org/images/2019/01/24/047707e5e123e90ebcfd82997ac9a8b8.png");
+    height: 43px;
+} 
+
+.header .header-top{
+    padding-top: 9px;  
+} 
+
+.header .header-top .delivery{
+    font-size: 13px;
+    color: #666666;
+    display: inline-block;
+    vertical-align: top; 
+}
+
+.header .header-top .delivery a{
+    color: #d42859;
+    border-bottom: 1px solid #ECBEC7;
+    display: inline-block; 
+    line-height: 16px;  
+}
+
+.header .header-top .header-num_center,
+.header .header-top .header-num_center li,
+.header .header-top .header-right li{
+    display: inline-block;
+    vertical-align: top;  
+} 
+
+.header .header-top .header-num_center{
+    margin-top: -2px;
+    margin-left: 52px;
+}
+
+.header .header-top .header-num_center a{
+    font-size: 15px;
+    color: #111111;
+}
+
+.header .header-top .header-num_center :nth-child(1) a,
+.header .header-top .header-num_center :nth-child(2) a{
+    font-weight: 600;
+}
+
+.header .header-top .header-num_center :nth-child(2) a,  
+.header .header-top .header-num_center span{
+    margin-left: 10px;
+}
+
+.header .header-top .header-num_center :last-child a{
+    font-size: 13px;
+    border-bottom: 1px solid #bbbbbb;
+    margin-left: 2px; 
+    display: inline-block;
+    line-height: 13px; 
+}
+
+.header .header-top .header-num_center li span{
+    display: block; 
+    font-size: 10px;
+    color: #999999;
+    line-height: 4px;
+}
+
+
+.header .header-top .header-right{
+    font-size: 13px;
+    display: inline-block;
+    float: right; 
+    vertical-align: top;
+    margin-right: 5px; 
+    
+}
+
+.header .header-top .header-right li a{
+    color: #111111;
+    border-bottom: 1px solid #bbbbbb;
+    margin-left: 11px; 
+    display: inline-block;
+    line-height: 13px;
+    margin-top: 4px;
+}
+
+.header .header-top .header-right :first-child a{
+    color: #d42859;
+    border-bottom: 1px solid #ECBEC7;
+}
+
+.header .logo{
+    /* background-image: url('../img/sprite.png');  */
+    background-image: url("https://picua.org/images/2019/01/27/7a1af2150f997cbb7f4e312eeec0e027.png");
+    width: 168px;
+    height: 58px;
+    display: inline-block;
+    background-position: -7px -8px;
+    margin-left: -1px;
+    margin-top: 4px;
+}
+
+.header .header-form{
+    display: inline-block;
+    vertical-align: top;
+    margin: 23px;
+    margin-left: 58px;
+    width: 370px;
+    border-bottom: 1px solid #D6D6D6; 
+    padding-bottom: 6px; 
+}
+
+.header .header-form button[type="submit"]{
+    /* background-image: url('../img/sprite.png'); */
+    background-image: url("https://picua.org/images/2019/01/27/7a1af2150f997cbb7f4e312eeec0e027.png");
+    width: 18px;
+    height: 18px;
+    background-position: -191px -23px;
+    float:right;
+    margin-top: 4px;
+} 
+
+/* увеличиваем ширину поля */
+.header .header-form input[type="search"]{
+    width: 90%;
+} 
+
+.header .header-form input[type="search"]::placeholder{
+    color: #999999;
+    font-size: 16px; 
+}
+
+.header .header-center .right-icons{
+    margin-right: 7px;
+    margin-top: 20px; 
+    float: right;
+    position: relative;
+}
+
+.header .header-center .right-icons .phone button,
+.header .header-center .right-icons .phone span,
+.header .header-center .right-icons .heart button,
+.header .header-center .right-icons .cart button,
+.header .header-center .right-icons .user button{
+    /*background-image: url('../img/sprite.png');*/
+    background-image: url("https://picua.org/images/2019/01/27/7a1af2150f997cbb7f4e312eeec0e027.png");
+    position: absolute;
+}
+
+.header .header-center .right-icons .heart button span,
+.header .header-center .right-icons .cart button span{
+    text-align: center; 
+    border-radius: 50%; 
+    color: #FFFFFF;
+    font-size: 11px;
+    font-family: 'Open Sans', sans-serif;  
+    background-color:#F26E56;
+    position: absolute;
+}
+
+.header .header-center .right-icons .phone button{
+    width: 20px;
+    height: 20px;
+    background-position: -218px -24px;
+    top: 7px;
+    right: 192px;  
+} 
+
+.header .header-center .right-icons .phone button span{
+    width: 10px;
+    height: 10px;
+    background-position: -245px -30px;
+    bottom: 11px;
+    right: -1px;
+}  
+
+.header .header-center .right-icons .heart button{
+    width: 25px;
+    height: 19px;
+    background-position: -267px -25px;
+    top: 7px;
+    right: 134px; 
+}
+
+.header .header-center .right-icons .heart button span{
+    width: 18px;
+    height: 18px;
+    bottom: 6px;
+    left: 15px;
+}
+
+.header .header-center .right-icons .cart button{
+    width: 25px;
+    height: 24px;
+    background-position: -7px -72px; 
+    top: 6px;
+    right: 75px;
+}
+
+.header .header-center .right-icons .cart button span{
+    width: 18px;
+    height: 18px;
+    bottom: 10px;
+    left: 12px; 
+} 
+
+.header .header-center .right-icons .user button{
+    width: 21px;
+    height: 21px;
+    background-position: -40px -72px; 
+    top: 6px;
+    right: 1px;
+}

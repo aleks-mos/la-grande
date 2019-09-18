@@ -1,0 +1,46 @@
+
+@media all and (max-width:1185px){
+    .right-icons {
+        margin-left: 70%;
+    }   
+}
+@media all and (max-width:1125px){
+    .page-content .mask p{
+    display: none;
+   }    
+}
+
+@media all and (max-width:875px){
+    .header .header-top{
+        display: none;
+    }
+    .nav{
+        display: none;
+    }
+    .header .header-center .header-form{
+        display: none;
+    }
+    .header .header-center .logo{
+        position: absolute;
+        top:0px;
+        left: 50%;
+        margin-left: -82px;
+    }
+    .header .header-center .right-icons .phone,
+    .header .header-center .right-icons .heart,
+    .header .header-center .right-icons .user
+    {
+        display: none;
+    }
+    .header .bottom-box .mob-nav{
+        display: block;
+    }
+}
+@media all and (max-width:700px){
+        .header .header-top .header-num_center li span {
+            display: none;
+    }
+}
+
+
+

@@ -1,0 +1,338 @@
+
+.sales{
+    max-width: 770px; 
+    margin-top: 17px; 
+    margin-bottom: -5px;
+}
+
+.sales .sales-img{
+    height: 420px;
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+} 
+
+.sales .sales-img img{
+    width: 100%;
+}
+
+.sales .sales-img .mask{
+    background-color: rgba(0,0,0, .65); 
+    position: absolute;
+    color: #ffffff;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.sales .sales-img .mask .mask-child{
+    background-color: rgba(0,0,0, .65); 
+    height: 50px;
+}
+
+.sales .sales-img .mask .mask-child li{
+    display: inline-block;
+    height: 30px;
+    border-right: 1px solid #ffffff;
+    margin-top: 10px;
+}
+
+.sales .sales-img .mask .mask-child li:last-child{
+    border: none;
+} 
+
+.sales .sales-img .mask .mask-child li a{
+    color: #ffffff;
+}
+
+.sales .sales-img .mask .mask-child li:nth-child(1) a{
+    border-bottom: 1px solid #ffffff;
+    margin-left: 26px;
+    line-height: 17px;
+    display: inline-block;
+    margin-right: 25px;
+    margin-top: 5px;
+}
+
+.sales .sales-img .mask .mask-child li:nth-child(2) a,
+.sales .sales-img .mask .mask-child li:nth-child(3) a{
+border-bottom: none;
+}
+
+
+.sales .sales-img .mask .mask-child li .cal{
+    margin-right: 30px;
+}
+
+.sales .sales-img .mask .mask-child .cal:before{
+    content: ""; 
+    display: inline-block;
+    /* background-image: url('../img/sprite.png'); */
+    background-image: url("https://picua.org/images/2019/02/07/2bcc15c4148c49575bdfb14b9af36e53.png");
+    width: 20px;
+    height: 20px;
+    background-position: -67px -72px;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.sales .sales-img .mask .mask-child .share:before{
+    content: ""; 
+    display: inline-block;
+    /* background-image: url('../img/sprite.png'); */
+    background-image: url("https://picua.org/images/2019/02/07/2bcc15c4148c49575bdfb14b9af36e53.png");
+    width: 17px;
+    height: 18px;
+    background-position: -95px -74px; 
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-right: 13px;
+}
+
+.page-content .mask h2{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 1px solid;
+    line-height: 22px;
+    margin-bottom: 2px;
+    margin-top: 13px;
+}
+
+.page-content .mask h2,
+.page-content .mask p{
+    margin-left: 27px;
+}
+
+.page-content .mask p:nth-child(4){
+    padding-bottom: 7px;
+}  
+
+.page-content .mask p{
+    font-size: 15px;
+    line-height: 6px;
+}
+
+section li{
+    display: inline-block;
+}  
+
+section h1{
+    margin-top: 15px;
+    font-size: 22px;
+    color: #111111;
+    font-weight: 300;
+    margin-bottom: 12px;
+}
+
+section h3,
+section a{ 
+    font-size: 16px;
+    font-weight: 400;
+}
+
+section h3{
+    color: #111111;
+    margin-top: -25px;
+    margin-bottom: 0;
+}
+
+section a{
+    color: #c5053b;
+}
+
+section ul {
+    margin-top: -5px;
+} 
+
+section ul li {
+    margin-right: 22px;
+} 
+
+section ul li a{
+    border-bottom: 1px solid #D8798A;
+    display: inline-block;
+    line-height: 15px;
+} 
+
+section .page-content {
+    display: grid;  
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 477px 490px;      
+}
+
+section ul li:nth-child(2){
+    margin-left: 4px;
+}
+
+section ul li span{
+    font-size: 13px;
+    color: #111111;
+    margin-left: 4px;
+}
+
+section .page-content aside{
+    width: 367px;
+    height: 418px; 
+    margin-left: 30px;
+    border: 1px solid #EEE2BC;
+    border-radius: 3px;
+    background-color: #FFF9E5;
+    align-self: right;
+    grid-column: 2/3;
+    grid-row: 1/2; 
+    margin-top: 17px; 
+}
+
+.page-content .sales:nth-child(2){
+    margin-top: 0px;
+}
+
+.page-content aside .inner{
+    margin-left: 18px; 
+    width: 328px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.page-content aside .inner p:nth-child(1),
+.page-content aside .inner p:nth-child(2),
+.page-content aside .inner p:nth-child(5){
+    font-size: 18px; 
+    font-weight: 600;
+}
+
+.page-content aside .inner p:nth-child(1){
+    margin-top: 2px;
+    margin-bottom: 0;
+}
+
+.page-content aside .inner p:nth-child(2){
+    margin: 2px 2px;
+}
+
+.page-content aside .inner p:nth-child(3),
+.page-content aside .inner p:nth-child(4){
+    font-size: 15px;
+}
+
+.page-content aside .inner p:nth-child(3){
+    margin: 13px 0 1px 0;
+}
+
+.page-content aside .inner p:nth-child(4){
+    margin-top: 5px;
+    
+}
+
+.page-content aside .inner p:nth-child(5){
+    margin-top: -3px;
+    margin-bottom: 6px;
+}
+
+.page-content aside .inner .inner-form{
+    
+    border: 1px solid #C1C1C1;
+    border-radius: 3px;
+    height: 40px;
+    padding: 7px 0 14px 15px;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.page-content aside .inner .inner-form input[type="search"]::placeholder{
+    color: #909090;
+    font-size: 15px; 
+}
+
+.page-content aside .inner .inner-form input[type="search"]{
+    width: 80%;
+}
+
+.page-content aside .inner .inner-form button[type="submit"]{
+    width: 50px;
+    height: 40px;
+    background-color: #468D23; 
+    float:right;
+    margin-top: -9px;
+    position: absolute;
+    top: 159px;
+    right:0;
+    border-radius: 3px;
+}
+
+.page-content aside .inner .inner-form button span{
+    display: inline-block;
+    /* background-image: url('../img/sprite.png'); */
+    background-image: url("https://picua.org/images/2019/02/07/2bcc15c4148c49575bdfb14b9af36e53.png");
+    width: 18px;
+    height: 14px; 
+    background-position: -122px -75px; 
+}  
+
+.page-content aside .inner .icons{
+    display: grid;
+    grid-template-columns: 49% 51%;
+    grid-template-rows: 50% 50%;
+}
+
+.page-content aside .inner .icons li > span{
+    display: block;
+    margin-left: 6px;
+}
+
+.page-content aside .inner .icons li .fb{
+    /* background-image: url('../img/sprite.png'); */
+    background-image: url("https://picua.org/images/2019/02/07/2bcc15c4148c49575bdfb14b9af36e53.png");
+    width: 12px;
+    height: 19px; 
+    background-position: -152px -72px;
+    margin-top: 22px;
+}
+
+.page-content aside .inner .icons li .tw{
+    /* background-image: url('../img/sprite.png'); */
+    background-image: url("https://picua.org/images/2019/02/07/2bcc15c4148c49575bdfb14b9af36e53.png");
+    width: 20px;
+    height: 17px; 
+    background-position: -173px -73px;
+    margin-top: 22px;
+}
+
+.page-content aside .inner .icons li .vk{
+    /* background-image: url('../img/sprite.png'); */
+    background-image: url("https://picua.org/images/2019/02/07/2bcc15c4148c49575bdfb14b9af36e53.png");
+    width: 23px;
+    height: 13px; 
+    background-position: -201px -74px;
+    margin-top: 28px;
+}
+
+.page-content aside .inner .icons li .yt{
+    /* background-image: url('../img/sprite.png'); */
+    background-image: url("https://picua.org/images/2019/02/07/2bcc15c4148c49575bdfb14b9af36e53.png");
+    width: 20px;
+    height: 22px; 
+    background-position: -234px -69px;
+    margin-top: 17px;
+}
+
+.page-content aside .inner .icons li a{
+    color: #c5053b;
+    border-bottom: 1px solid #D05466;
+    font-size: 15px;
+    line-height: 15px;
+    display: inline-block;
+    margin-top: 11px;
+}
+
+.page-content aside .inner .icons li p{
+    font-size: 13px;
+    color: #666666; 
+    margin: 1px 1px;
+}
+
+.page-content aside .inner .icons li p span{
+    margin-right: 4px;
+}
